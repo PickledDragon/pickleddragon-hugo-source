@@ -1,3 +1,40 @@
-baseURL = "http://example.org/"
+baseURL = "https://pickleddragon.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "PickledDragon"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Praveen Kottarathil"
+
+[params]
+   author = "Praveen Kottarathil"
+   description = "Random ramblings, straight from the basement IT department."
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Archive"
+    identifier = "archive"
+    url = "/posts/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
