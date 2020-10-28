@@ -1,6 +1,6 @@
-[submodule "themes/anubis"]
-	path = themes/anubis
-	url = https://github.com/PickledDragon/hugo-theme-anubis
 [submodule "public"]
 	path = public
 	url = https://github.com/PickledDragon/pickleddragon.github.io
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/PickledDragon/hugo-theme-anubis
