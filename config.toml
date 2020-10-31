@@ -1,6 +1,6 @@
-baseURL = "https://pickleddragon.github.io"
+baseURL = "https://praveen.kottarathil.net"
 languageCode = "en-us"
-title = "PickledDragon"
+title = "Praveen Kottarathil"
 theme = "anubis"
 paginate = 3
 
